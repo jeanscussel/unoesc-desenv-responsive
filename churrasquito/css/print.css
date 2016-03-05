@@ -1,1 +1,19 @@
+nav, #banner, footer, .btn {
+	display: none;
+}
 
+.escondido {
+	display: block;
+	font-weight: bold;
+	font: 1.5em Rokkitt, Tahoma;
+	color: #FF0000;
+	text-align: center;
+}
+
+header img {
+	width: 50%;
+}
+
+.receita img {
+	opacity: 1;
+}

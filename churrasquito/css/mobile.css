@@ -42,3 +42,7 @@ nav ul li a {
 #sobre-maps {
 	display: none;
 }
+
+.descricao {
+	width: 100%;
+}

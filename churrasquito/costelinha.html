@@ -5,15 +5,16 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
 
-		<link rel="shortcut icon" href="imgs/icone.png">
-
 		<link href='https://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+
+		<link rel="shortcut icon" href="imgs/icone.png">
 
 		<!-- esse tem configurações gerais -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/tablet.css" media="(max-width: 600px)">
 		<link rel="stylesheet" type="text/css" href="css/mobile.css" media="(max-width: 480px)">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"> <!-- ícones -->
+		<link rel="stylesheet" type="text/css" href="css/print.css" media=print>
 
 		<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
 		<script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
@@ -39,22 +40,46 @@
 			</ul>
 		</nav>
 
+		<div id="banner" class="cycle-slideshow">
+			<img src="imgs/1.jpg" alt="Costelinha" title="Costelinha">
+			<img src="imgs/2.jpg" alt="Receitas Suínas" title="Receitas Suínas">
+			<img src="imgs/3.jpg" alt="Receitas Especiais" title="Receitas Especiais">
+		</div>
+
 		<main>
-			<h1>Contato</h1>
-			<form name="form1" id="form1" action="" method="post">
-				<label for="name">Nome:</label>
-				<input type="text" name="name" class="box" placeholder="Digite seu nome" required><br>
+			<h1>Receita de Costelinha Suína ao Molho Barbie Kill</h1>
+			<div class="receita">
+				<img src="imgs/fot	o1.jpg" alt="Costelinha" title="Costelinha">
+				<p><strong>Costelinha Suína ao Molho Barbie Kill</strong></p>
+				<p>
+					<a href="javascript:window.print();" title="Costelinha" class="btn">
+						<i class="fa fa-print"></i> Imprimir
+					</a>
+				</p>
+			</div>
 
-				<label for="email">Email:</label>
-				<input type="email" name="email" class="box" placeholder="Digite seu email" required><br>
+			<div class="descricao">
+				<h2>Receita</h2>
+				<p><strong>Ingredientes:</strong></p>
+				<ul>
+					<li>1 kg de Costelinha Suína</li>
+					<li>Sal</li>
+					<li>Pimenta do Reino</li>
+					<li>Alho</li>
+					<li>Suco de 1 limão</li>
+					<li>Molho Barbecue</li>
+				</ul>
+				<p><strong>Modo de Preparo:</strong></p>
+				<p>
+					Tempere a costela com sal, alho e pimenta a gosto. Jogue o suco de limão e deixe descansar por 2 horas. Aqueça a churrasqueira, quando estiver quente coloque a costelinha em uma grelha ou no espeto. Vire assando cada lado até ficar dourado. Aplique o molho barbecue.
+				</p>
+			</div>
 
-				<label for="message">Mensagem:</label>
-				<textarea name="message" class="box" placeholder="Digite sua mensagem" required rows="5"></textarea><br>
+			<div class="clear"></div>
 
-				<button type="submit" class="btn">
-					<i class="fa fa-check fa-2x"></i>Enviar Mensagem
-				</button>
-			</form>
+			<p class="escondido">
+				Receita retirada do site churrasquito.com.br
+			</p>
 		</main>
 
 		<footer>

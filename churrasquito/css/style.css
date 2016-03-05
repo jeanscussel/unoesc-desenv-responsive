@@ -150,6 +150,10 @@ footer a:hover {
 	width: 90%;
 }
 
+.box:focus {
+	background: #FFBFBF;
+}
+
 label {
 	font: 1em Rokkitt, Tahoma, Arial;
 	margin: 10px;
@@ -157,4 +161,24 @@ label {
 
 .clear {
 	clear: both;
+}
+
+h2 {
+	font: 2.0em Rokkitt, Tahoma;
+	font-weight: bold;
+	color: #F00;
+}
+
+.descricao {
+	width: 50%;
+	float: right;
+}
+
+.descricao ul {
+	font: 1.5em Rokkitt, Tahoma;
+	margin: 30px;
+}
+
+.escondido {
+	display: none;
 }
