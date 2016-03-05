@@ -17,12 +17,18 @@ nav ul li a {
 	float: left;
 }
 
+/* menu não é exibido no mobile */
 #menu {
 	display: none;
 }
 
 #btnmenu {
 	display: block;
+}
+
+/* banners não são exibidos no mobile */
+#banner {
+	display: none;
 }
 
 .receita {
