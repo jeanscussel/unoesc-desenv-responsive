@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<title>Churrasquito</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+
+		<link href='https://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+
+		<!-- esse tem configurações gerais -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/tablet.css" media="(max-width: 600px)">
+		<link rel="stylesheet" type="text/css" href="css/mobile.css" media="(max-width: 480px)">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+		<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+		<script type="text/javascript" src="js/modernizr.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<a href="index.html" title="Churrasquito - Home">
+				<img src="imgs/logo.png" alt="Churrasquito" title="Churrasquito">
+			</a>
+		</header>
+
+		<nav>
+			<a href="#" title="Abrir Menu" id="btnmenu">
+				<img src="imgs/menu2.png" alt="Menu" title="Menu">
+			</a>
+			<ul id="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="sobre.html">Sobre</a></li>
+				<li><a href="receitas.html">Receitas</a></li>
+				<li><a href="contato.html">Contato</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<h1>Contato</h1>
+			<form name="form1" id="form1" action="" method="post">
+				<label for="name">Nome:</label>
+				<input type="text" name="name" class="box" placeholder="Digite seu nome" required><br>
+
+				<label for="email">Email:</label>
+				<input type="email" name="email" class="box" placeholder="Digite seu email" required><br>
+
+				<label for="message">Mensagem:</label>
+				<textarea name="message" class="box" required rows="5"></textarea><br>
+
+				<button type="submit" class="btn">Enviar Mensagem</button>
+			</form>
+		</main>
+
+		<footer>
+			<p>
+				Churrasquito - Todos os direitos reserveados<br>
+				Desenvolvido por Maurício A. Grando
+			</p>
+			<p>
+				<a href="https://www.facebook.com/mauricio.grando.90" title="Facebook" target="_blank">
+					<img src="imgs/face.png" alt="Facebook" title="Facebook">
+				</a>
+				<a href="http://www.twitter.com" title="Twitter" target="_blank">
+					<img src="imgs/twitter.png" alt="Twitter" title="Twitter">
+				</a>
+				<a href="contato.html" title="Contato">
+					<img src="imgs/email.png" alt="Contato" title="Contato">
+				</a>
+			</p>
+		</footer>
+
+		<script type="text/javascript">
+			$("#btnmenu").click(function() {
+				$("#menu").toggle();
+			});
+		</script>
+
+	</body>
+</html>

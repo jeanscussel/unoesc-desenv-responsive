@@ -115,8 +115,24 @@ footer a:hover {
 
 #banner {
 	float: left;
+	width: 100%;
 }
 
 #banner img {
 	width: 100%;
+}
+
+.sobre {
+	width: 50%;
+	float: left;
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+}
+
+.sobre img {
+	width: 80%;
+	border: 10px solid #FFF;
+	box-shadow: 1px 1px 5px #000;
+	opacity: 0.8;
+	transition: all 0.5s;
 }

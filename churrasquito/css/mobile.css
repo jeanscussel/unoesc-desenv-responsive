@@ -38,3 +38,7 @@ nav ul li a {
 .receita img {
 	opacity: 1;
 }
+
+#sobre-maps {
+	display: none;
+}
