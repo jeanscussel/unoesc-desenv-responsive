@@ -40,3 +40,47 @@ nav ul li a:hover {
 #btnmenu {
 	display: none;
 }
+
+.receita {
+	width: 50%;
+	float: left;
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+}
+
+.receita img {
+	width: 80%;
+	border: 10px solid #FFF;
+	box-shadow: 1px 1px 5px #000;
+	opacity: 0.8;
+	transition: all 0.5s;
+}
+
+.receita img:hover {
+	opacity: 1;
+}
+
+h1 {
+	font: 3em Rokkitt, Tahoma, Arial;
+	color: #F00;
+	text-shadow: 1px 1px 3px #000;
+	text-align: center;
+	margin: 10px;
+}
+
+p {
+	font-size: 2em Rokkitt, Tahoma;
+	margin: 10px;
+}
+
+.btn {
+	padding: 10px;
+	background: #F00;
+	color: #FFF;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.btn:hover {
+	background: #B20000;
+}
