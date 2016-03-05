@@ -98,6 +98,11 @@ footer {
 	text-align: center;
 	color: #FFF;
 	width: 100%;
+	font: 17px Roboto, Tahoma;
+}
+
+footer a {
+	text-decoration: none;
 }
 
 .colunas {
