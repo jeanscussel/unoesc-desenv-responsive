@@ -1,0 +1,22 @@
+header img {
+	width: 80%;
+}
+
+nav ul li {
+	display: block;
+	list-style: none;
+}
+
+nav ul li a {
+	width: 100%;
+	font: 2em Rokkitt, Tahoma, Arial;
+	color: #FFF;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	text-decoration: none;
+	float: left;
+}
+
+#menu {
+	display: none;
+}
