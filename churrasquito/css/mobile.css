@@ -20,3 +20,7 @@ nav ul li a {
 #menu {
 	display: none;
 }
+
+#btnmenu {
+	display: block;
+}
