@@ -1,3 +1,40 @@
+header {
+	text-align: center;
+}
+
+#banner, #menu {
+	display: none;
+}
+
+nav {
+	width: 100%;
+	text-align: center;
+}
+
+nav ul li {
+	display: block;
+	list-style: none;
+}
+
+nav ul li a {
+	width: 100%;
+	text-align: center;
+}
+
 #btnmenu {
 	display: block;
+	float: none;
+}
+
+.colunas, #portfolio, #contato, .form {
+	width: 100%;
+}
+
+.container {
+	width: 90%;
+	margin: 10px;
+}
+
+#sobre {
+    padding: 200px 0px 90px 0px;
 }
