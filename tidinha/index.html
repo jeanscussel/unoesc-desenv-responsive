@@ -127,6 +127,12 @@
 		<script type="text/javascript">
 			$("#btnmenu").click(function(){
 				$("#menu").toggle();
+				var control = $("#menu").is(":visible");
+				if(control) {
+					$("#sobre").css("padding-top", "280px");
+				} else {
+					$("#sobre").css("padding-top", "180px");
+				}
 			})
 		</script>
 	</body>
