@@ -1,5 +1,7 @@
 header {
 	text-align: center;
+	position: static;
+	z-index: auto;
 }
 
 #banner, #menu {
@@ -14,11 +16,6 @@ nav {
 nav ul li {
 	display: block;
 	list-style: none;
-}
-
-nav ul li a {
-	width: 100%;
-	text-align: center;
 }
 
 #btnmenu {
@@ -39,6 +36,6 @@ nav ul li a {
 	margin: 10px;
 }
 
-#sobre {
-    padding: 200px 0px 90px 0px;
+.box {
+	padding: 50px 0px 50px 0px;
 }
