@@ -30,6 +30,10 @@ nav ul li a {
 	width: 100%;
 }
 
+.redondo {
+	border-radius: 50%;
+}
+
 .container {
 	width: 90%;
 	margin: 10px;
